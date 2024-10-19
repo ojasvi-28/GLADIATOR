@@ -1,0 +1,19 @@
+.container{
+    background-color: rgb(247, 205, 137);
+    width: 50vw;
+    height: 40vh;
+}
+.box{
+    background-color: hsl(11, 100%, 50%);
+    width: 100px;
+    height: 100px;
+    /*transition-property:transform ;
+    transition-duration: 3s;
+    transition-timing-function: cubic-bezier(0.76,-0.32, 0, 1);
+    transition-delay: 0s;*/
+    transition: all 5s ease-in-out 0s ;
+}
+.translate{
+    transform: translateX(20vh) translateY(20vw) scale(1.5);
+    background-color: aqua;
+}

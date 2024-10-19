@@ -1,0 +1,93 @@
+.image2{
+    margin-top: -125px;
+}
+
+
+
+img{
+    flex: auto;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+.heading{
+    margin-left: 154px;
+    text-shadow: 3px 3px 5px hsl(86, 85%, 66%), -3px -3px 5px hsl(304, 81%, 60%);
+    color: rgb(78, 34, 238);
+    font-size: 5em;
+}
+
+
+nav{
+    position: relative;
+    margin:auto
+    width: 100%;
+    height: 40px;
+    border-radius: 0;
+    font-size: 0;
+
+    
+    background-color:hsla(43, 8%, 17%, 0.968);
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .1);
+    
+}
+nav a{
+    
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    line-height: 40px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+}
+nav .animation{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    text-align: center;
+    background: #000000;
+    transition: all .2s ease 0s;
+    
+    border-radius: 8px;
+}
+a:nth-child(1){
+    width: 100px;
+}
+nav .start-Home,a:nth-child(1):hover~.animation{
+    width:100px;
+    left:0;
+}
+
+a:nth-child(2){
+    width: 140px;
+}
+nav .start-Types,a:nth-child(2):hover~.animation{
+    width: 140px;
+    left:100px;
+}
+a:nth-child(3){
+    width: 170px;
+}
+nav .start-Maps,a:nth-child(3):hover~.animation{
+    width: 170px;
+    left: 240px;
+}
+a:nth-child(4){
+    width: 170px;
+}
+nav .start-Contact Us,a:nth-child(4):hover~.animation{
+    width: 150px;
+    left: 420px;
+}
+a:nth-child(4){
+    width: 190px;
+}
+
+
+
+
+
